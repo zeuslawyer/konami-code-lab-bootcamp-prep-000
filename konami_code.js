@@ -15,8 +15,15 @@ function init() {
   // your code here
   let body= document.querySelector('body');
   body.addEventListener('keydown', function(e){
-    let c = 0;
-    for ()
+    let keyPressNum = 0;
+    let correctKeys = 0;
+    if (e.key === codes[keyPressNum]) {
+      correctKeys+=1;
+    }
+    
+    if (correctKeys === codes.length) {
+      
+    }
   })
   
 }
