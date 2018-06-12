@@ -22,7 +22,7 @@ function init() {
     }
     
     if (correctKeys === codes.length) {
-      
+      alert ('Well done!!');
     }
   })
   
